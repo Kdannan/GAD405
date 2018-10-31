@@ -10,15 +10,18 @@ function setup() {
   // Create the canvas
   createCanvas(800, 600);
   background(300);
-
+  //line colour
   stroke(107, 163, 255)
 
   // Set colors
   fill(107, 163, 255)
+
+  //top left
     rect(100, 50, 50, 10)
     rect(75, 60, 100, 10)
     rect(50, 70, 150, 10)
-  // left
+
+  // left side
     rect(50, 80, 50, 10)
     rect(40, 90, 40, 10)
     rect(40, 100, 40, 10)
@@ -29,7 +32,9 @@ function setup() {
     rect(50, 140, 30, 10)
     rect(50, 150, 40, 10)
 
+    //darker colour for left side
   fill(90, 110, 255)
+
     rect(60, 160, 40, 10)
     rect(70, 170, 40, 10)
     rect(80, 180, 40, 10)
@@ -50,15 +55,19 @@ function setup() {
     rect(220, 330, 10, 10)
 
   //left curve
+  //lighter blue
   fill(90, 110, 255)
+
     rect(200, 90, 20, 10)
     rect(200, 100, 20, 10)
     rect(200, 110, 20, 10)
     rect(170, 120, 30, 10)
     rect(160, 100, 10, 20)
 
+    //lighter blue
   fill(107, 163, 255)
-  //right side of heart
+
+    //right side of heart
     rect(230, 280, 30, 10)
     rect(240, 270, 40, 10)
     rect(250, 260, 40,10)
@@ -79,7 +88,7 @@ function setup() {
     rect(370, 110, 40, 10)
     rect(370, 100, 40, 10)
 
-
+    //darker blue
   fill(90, 110, 255)
     rect(370, 90, 40, 10)
     rect(350, 80, 50, 10)
@@ -97,6 +106,17 @@ function setup() {
     rect(250, 120, 30, 10)
     rect(280, 100, 10, 20)
 
-  for (var i = 0; i < 10; i ++) {
-  }
+
+    //crown
+  //line colour
+  stroke(250, 180, 90)
+
+  //crown colour
+  fill(250, 180, 90)
+  
+    rect(195, 40, 60, 10)
+    triangle(195, 40, 210, 40, 195, 20)
+    triangle(210, 40, 240, 40, 225, 20)
+    triangle(240, 40, 255, 40, 255, 20)
+
 }
