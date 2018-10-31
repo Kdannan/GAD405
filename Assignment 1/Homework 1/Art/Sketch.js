@@ -1,6 +1,5 @@
 //DAT405 / GAD405
-//00_Template
-//The purpose of this sketch is to provide a basic template
+//The purpose of this sketch is to create a pixel art image
 //for P5.js projects
 
 //Initialization function
@@ -113,7 +112,7 @@ function setup() {
 
   //crown colour
   fill(250, 180, 90)
-  
+
     rect(195, 40, 60, 10)
     triangle(195, 40, 210, 40, 195, 20)
     triangle(210, 40, 240, 40, 225, 20)
