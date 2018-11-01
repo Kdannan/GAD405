@@ -19,6 +19,6 @@ function draw() {
     //bottom row
     rect(size*x, height/2, size, size);
     //middle row
-    rect(size*x, height/4, size, size);
+    rect(size*x, 450, size, size);
   }
 }
