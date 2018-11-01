@@ -15,7 +15,7 @@ function draw() {
   fill (215, 200, 170);
   for (let x = 0; x < 10; x++){
     //top row
-    rect(size*x, height/200, size, size);
+    rect(size*x, height*0, size, size);
     //bottom row
     rect(size*x, height/2, size, size);
     //middle row
