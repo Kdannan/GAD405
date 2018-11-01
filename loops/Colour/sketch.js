@@ -18,7 +18,7 @@ strokeWeight(1)
 
   for (let x = 0; x < 10; x++){
     for(let i = 0; i < 10; i++){
-      fill(215, 200, 170);
+      fill(255, 20, 147);
     rect(size*x, size*i, size, size);
 
       fill(random(255), random(255), random(255));
