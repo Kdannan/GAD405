@@ -1,9 +1,9 @@
 //DAT405 / GAD405
 //for P5.js projects
 
-//variables, width, height. Creates a random number.
-  var x = Math.floor(Math.random() * 594);
-  var y = Math.floor(Math.random() * 841);
+//Creates a random number from 0 to the specified number.
+  var x = Math.floor(Math.random() * 494);
+  var y = Math.floor(Math.random() * 741);
 
 //initialising function
   function setup() {
