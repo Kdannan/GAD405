@@ -20,11 +20,19 @@
         g = random(255);
         b = random(255);
       }
-
+      let dx = x;
+      let dy = y;
       //setting the background colours
     function draw() {
+      if(dx>width){
+        dx = 0;
+      } else if(dy>height){
+        dy = 0;
+      }
         background (r, g, b, 127)
 
     //create rectangle
-    rect (x, y, 100, 100);
+    rect (dx, dy, 100, 100);
+    dx++
+    dy++
     }
