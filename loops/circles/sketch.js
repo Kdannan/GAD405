@@ -6,6 +6,7 @@ function setup() {
   //create canvas
   createCanvas(500, 500);
   frameRate(5)
+  noStroke();
 }
 //drawing the ellipse
 function draw() {
