@@ -15,14 +15,13 @@ function draw() {
 
   customShape();
 }
-
+//creating the multiple ellipse
 function customShape(){
 //variables
   circleX = random(width);
   circleY = random(height);
   size = random(240)
 
-//creating the multiple ellipse
   //stroke
 strokeWeight(3);
 stroke(0);
