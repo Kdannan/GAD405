@@ -5,6 +5,10 @@
   var x = Math.floor(Math.random() * 494);
   var y = Math.floor(Math.random() * 741);
 
+//variables that allow the square to move along the screen
+  let dx = x;
+  let dy = y;
+
 //initialising function
   function setup() {
       createCanvas(594, 841);
@@ -13,6 +17,7 @@
       g = random(255);
       b = random(255);
     }
+
     // When the user clicks the mouse
     function mousePressed() {
         // Pick new random color values
@@ -20,8 +25,6 @@
         g = random(255);
         b = random(255);
       }
-      let dx = x;
-      let dy = y;
       //setting the background colours
     function draw() {
       if(dx>width){
