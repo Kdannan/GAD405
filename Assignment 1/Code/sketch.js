@@ -1,18 +1,18 @@
 //DAT405 / GAD405
 //for P5.js projects
 
-//Creates a random number from 0 to the specified number.
+//Creates a random number from 0 to the specified number. this will decide where the square starts on the page.
   var x = Math.floor(Math.random() * 494);
   var y = Math.floor(Math.random() * 741);
 
-//variables that allow the square to move along the screen
+//variables that allow the square to move along the screen.
   let dx = x;
   let dy = y;
 
-//initialising function
+//initialising function.
   function setup() {
       createCanvas(594, 841);
-      // Pick colors randomly
+      // Pick colors randomly for the background.
       r = random(255);
       g = random(255);
       b = random(255);
@@ -20,19 +20,19 @@
 
     // When the user clicks the mouse
     function mousePressed() {
-        // Pick new random color values
+        // Pick new random color values.
         r = random(255);
         g = random(255);
         b = random(255);
       }
-      //setting the background colours
+      //creating the motion.
     function draw() {
       if(dx>width){
-        dx = 0;
+        dx = -1;
       } else if(dy>height){
-        dy = 0;
+        dy = -1;
       }
-        background (r, g, b, 127)
+        background (r, g, b, 10)
 
     //create rectangle
     rect (dx, dy, 100, 100);
