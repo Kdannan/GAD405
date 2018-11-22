@@ -32,7 +32,7 @@
       } else if(dy>height){
         dy = -1;
       }
-        background (r, g, b, 5)
+        background (r, g, b, 2)
 
     //create rectangle
     rect (dx, dy, 100, 100);
