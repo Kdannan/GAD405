@@ -27,15 +27,15 @@
       }
       //creating the motion.
     function draw() {
-      if(dx>width){
-        dx = -1;
-      } else if(dy>height){
-        dy = -1;
-      }
         background (r, g, b, 2)
 
     //create rectangle
     rect (dx, dy, 100, 100);
     dx++
     dy++
+    if(dx>width){
+      dx = -1;
+    } else if(dy>height){
+      dy = -1;
+    }
     }
