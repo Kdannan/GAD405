@@ -3,10 +3,14 @@
 Resources:
 
 To randomise numbers.
-https://www.w3schools.com/js/js_random.asp
+Article title:	JavaScript Random
+Website title:	W3schools.com
+URL:	https://www.w3schools.com/js/js_random.asp
 
 To get the code for randomising the background colours when the page is clicked.
-https://p5js.org/examples/hello-p5-interactivity-1.html
+Article title:	p5.js | examples
+Website title:	P5js.org
+URL:	https://p5js.org/examples/hello-p5-interactivity-1.html
 
 
 -----------------------------------------------------------------
